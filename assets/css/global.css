@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'helvetica', sans-serif;
+}
+
+body {
+    background-color: var(--color-4);
+}
+
+
+:root {
+	--color-1: #58A4B0;
+	--color-2: #f9e9c2;
+	--color-3: #A9BCD0;
+	--color-4: #D8DBE2;
+	--color-5: #ffd9b8;
+    --color-6: #373F51;
+}
