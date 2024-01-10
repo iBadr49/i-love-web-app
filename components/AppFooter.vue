@@ -30,7 +30,6 @@
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -47,7 +46,7 @@
 
 .footer-links a {
   text-decoration: none;
-  color: #333;
+  color: black;
 }
 
 .footer-social {
@@ -57,7 +56,7 @@
 .footer-social a {
   margin-right: 15px;
   font-size: 1.5em;
-  color: #333;
+  color: black;
 }
 
 .footer-social i:hover {
