@@ -6,8 +6,8 @@
         i
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          height="14"
-          width="14"
+          height="18"
+          width="18"
           viewBox="0 0 512 512"
         >
           <path
@@ -19,8 +19,14 @@
     </div>
     <nav class="header-right">
       <ul>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Contact</a></li>
+        <!-- <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li> -->
+        <li aria-label="after">
+          <a href="#">About</a>
+        </li>
+        <li aria-label="after">
+          <a href="#">Contact</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -36,7 +42,11 @@
 
 .header-left p {
   font-weight: bold;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
+}
+
+.header-left .svg {
+  color: var(--color-1);
 }
 
 .header-right ul {
@@ -50,19 +60,45 @@
   margin-right: 1rem;
 }
 
-.header-right a {
+[aria-label="after"] a {
+  color: black;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+}
+
+[aria-label="after"] a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 0.17em;
+  background-color: var(--color-1);
+  scale: 0 1;
+  transform-origin: right center;
+  transition: scale 0.3s;
+}
+
+[aria-label="after"] a:hover:after,
+[aria-label="after"] a:focus-visible:after {
+  scale: 1 1;
+  transform-origin: left center;
+}
+
+/* .header-right a {
   text-decoration: none;
   color: black;
 }
 .header-right a:hover {
   color: var(--color-1);
   transition: color 0.3s ease;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .header {
-    flex-direction: column; 
-    text-align: center; 
+    flex-direction: column;
+    text-align: center;
   }
 
   .header-left p {
@@ -70,7 +106,7 @@
   }
 
   .header-right ul {
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
 
   .header-right li {
