@@ -22,10 +22,10 @@
         <!-- <li><a href="#">About me</a></li>
         <li><a href="#">Contact</a></li> -->
         <li aria-label="after">
-          <a href="#">About</a>
+          <a href="/about">About</a>
         </li>
         <li aria-label="after">
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -38,6 +38,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .header-left p {
