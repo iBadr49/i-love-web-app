@@ -1,65 +1,65 @@
 <!-- components/Workshop.vue -->
 <template>
-<div class="container">
+  <div class="container">
     <div class="card-container">
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description"> Cyd | 23 dec 2023</span>
-                <h2 class="card-title">workshop 1</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
+      <article class="card-article">
+        <img src="assets/img/image2.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description"> Joost | 24 oct 2023</span>
+          <h2 class="card-title">workshop 1</h2>
+          <a href="/workshop1" class="card-button">Read more</a>
+        </div>
+      </article>
 
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description"> Joost | 24 oct 2023</span>
-                <h2 class="card-title">workshop 2</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
+      <article class="card-article">
+        <img src="assets/img/image9.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description"> Joost | 24 oct 2023</span>
+          <h2 class="card-title">workshop 2</h2>
+          <a href="#" class="card-button">Read more</a>
+        </div>
+      </article>
 
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description">Koop | 23 dec 2023</span>
-                <h2 class="card-title">workshop 3</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description">Koop | 23 dec 2023</span>
-                <h2 class="card-title">workshop 4</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
+      <article class="card-article">
+        <img src="assets/img/image6.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description">Koop | 23 dec 2023</span>
+          <h2 class="card-title">workshop 3</h2>
+          <a href="#" class="card-button">Read more</a>
+        </div>
+      </article>
 
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description">Koop | 23 dec 2023</span>
-                <h2 class="card-title">workshop 5</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
+      <article class="card-article">
+        <img src="assets/img/image5.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description">Koop | 23 dec 2023</span>
+          <h2 class="card-title">workshop 5</h2>
+          <a href="#" class="card-button">Read more</a>
+        </div>
+      </article>
 
-        <article class="card-article">
-            <img src="assets/img/accessibility.png" class="card-img">
-            <div class="card-data">
-                <span class="card-description">Koop | 23 dec 2023</span>
-                <h2 class="card-title">workshop 6</h2>
-                <a href="#" class="card-button">Read more</a>
-            </div>
-        </article>
+      <article class="card-article">
+        <img src="assets/img/image3.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description">Koop | 23 dec 2023</span>
+          <h2 class="card-title">workshop 6</h2>
+          <a href="#" class="card-button">Read more</a>
+        </div>
+      </article>
+
+      <article class="card-article">
+        <img src="assets/img/image10.jpg" class="card-img" />
+        <div class="card-data">
+          <span class="card-description"> Joost | 24 oct 2023</span>
+          <h2 class="card-title">workshop 7</h2>
+          <a href="#" class="card-button">Read more</a>
+        </div>
+      </article>
     </div>
-</div>
+  </div>
 </template>
-  
-<style scoped>
 
+<style scoped>
 .container {
   display: grid;
   place-items: center;
@@ -78,15 +78,15 @@
 }
 
 .card-img {
-  width: 328px;
+  width: 300px;
   border-radius: 1.5rem;
 }
 
 .card-data {
   width: 250px;
-  background-color: rgb(222, 222, 222);
+  background-color: whitesmoke;
   padding: 1.5rem 2rem;
-  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
   border-radius: 1rem;
   position: absolute;
   bottom: -9rem;
@@ -94,23 +94,23 @@
   right: 0;
   margin-inline: auto;
   opacity: 0;
-  transition: opacity 1s 1s;
+  transition: opacity 1s;
 }
 
 .card-description {
   display: block;
   font-size: small;
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 .card-title {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .card-button {
   text-decoration: none;
   font-size: small;
-  color: rgb(0, 123, 254);
+  color: var(--color-1);
 }
 
 .card-button:hover {
@@ -120,7 +120,7 @@
 .card-article:hover .card-data {
   animation: show-data 1s forwards;
   opacity: 1;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .card-article:hover {
@@ -168,37 +168,34 @@
   }
 }
 
-@media screen and (min-width: 340px){
-  .container{
+@media screen and (min-width: 340px) {
+  .container {
+    padding: 1rem;
     margin-inline: 1rem;
   }
 
-  .card-data{
+  .card-data {
     width: 250px;
     padding: 1rem;
   }
 }
 
-@media screen and (min-width: 768px){
-  .card-container{
+@media screen and (min-width: 768px) {
+  .card-container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
   }
-
 }
 
-@media screen and (min-width: 1120px){
-  .container{
+@media screen and (min-width: 1120px) {
+  .container {
     height: 100vh;
   }
-  .card-container{
+  .card-container {
     grid-template-columns: repeat(3, 1fr);
   }
   .card-img {
-    width: 348px;
+    width: 340px;
   }
-
 }
-
 </style>
-  
