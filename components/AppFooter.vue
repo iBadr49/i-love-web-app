@@ -1,11 +1,9 @@
-
 <template>
   <footer class="blog-footer">
     <div class="container">
       <div class="footer-content">
         <div class="footer-links">
-          <!-- <router-link to="#">Contact Us</router-link> -->
-          <!-- <router-link to="/contact">Contact Us</router-link> -->
+          <!-- <router-link to="#">Socials</router-link>  -->
         </div>
       </div>
       <div class="footer-social">
@@ -27,6 +25,7 @@
 .blog-footer {
   justify-content: space-between;
   padding: 2rem;
+  margin-top: 40px;
 }
 
 .container {
@@ -36,13 +35,12 @@
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.footer-links {
+/* .footer-links {
   display: flex;
   gap: 20px;
-}
+} */
 
 .footer-links a {
   text-decoration: none;
