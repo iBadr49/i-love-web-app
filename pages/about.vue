@@ -3,8 +3,8 @@
     href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
     rel="stylesheet"
   />
-  <AppHeader />
 
+  <AppHeader />
   <Backtohome />
 
   <div class="container">
@@ -20,10 +20,9 @@
       </p>
     </div>
     <div class="right-panel">
-      <img src="assets/img/about1.jpeg" class="student-img" />
+      <img src="assets/img/about1.jpeg" class="student-img" id="img" />
     </div>
   </div>
-
   <AppFooter />
 </template>
 
@@ -43,12 +42,12 @@
 
 .right-panel {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
+
 img {
-  border-radius: 30px;
+  border-radius: 20px;
   height: 80vh;
 }
 
@@ -84,8 +83,8 @@ p {
   }
 
   .left-panel {
-    /* border: 1px solid var(--color-1) ; */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+    border: 1px solid var(--color-1);
+    border-radius: 20px;
     padding: 10px;
   }
 }
