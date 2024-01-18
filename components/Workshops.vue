@@ -3,23 +3,24 @@
   <div class="container">
     <div class="card-container">
       <article class="card-article">
-        <img src="assets/img/image2.jpg" class="card-img" />
+        <img src="assets/img/image9.jpg" class="card-img" />
         <div class="card-data">
-          <span class="card-description"> Joost | 24 oct 2023</span>
-          <h2 class="card-title">workshop 1</h2>
-          <a href="/workshop1" class="card-button">Read more</a>
+          <span class="card-description"> Tim Borst | 6 oct 2023</span>
+          <h2 class="card-title">Freelancen</h2>
+          <a href="/freelancen" class="card-button">Read more</a>
         </div>
       </article>
 
       <article class="card-article">
-        <img src="assets/img/image9.jpg" class="card-img" />
+        <img src="assets/img/image2.jpg" class="card-img" />
         <div class="card-data">
-          <span class="card-description"> Joost | 24 oct 2023</span>
-          <h2 class="card-title">workshop 2</h2>
-          <a href="#" class="card-button">Read more</a>
+          <span class="card-description"> Ischa Gast | 20 oct 2023</span>
+          <h2 class="card-title">Accessibility</h2>
+          <a href="/accessibility" class="card-button">Read more</a>
         </div>
       </article>
 
+      <!-- 
       <article class="card-article">
         <img src="assets/img/image6.jpg" class="card-img" />
         <div class="card-data">
@@ -54,7 +55,7 @@
           <h2 class="card-title">workshop 7</h2>
           <a href="#" class="card-button">Read more</a>
         </div>
-      </article>
+      </article> -->
     </div>
   </div>
 </template>
@@ -65,6 +66,16 @@
   place-items: center;
   margin-inline: 1.5rem;
   padding-block: 5rem;
+  animation: grow 1s;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .card-container {
@@ -78,8 +89,10 @@
 }
 
 .card-img {
-  width: 300px;
+  width: 330px;
   border-radius: 1.5rem;
+  /* border: 1px solid var(--color-1); */
+  /* box-shadow: 0 1px var(--color-1); */
 }
 
 .card-data {
