@@ -19,16 +19,17 @@
           <a href="/accessibility" class="card-button">Read more</a>
         </div>
       </article>
-
-      <!-- 
+      
       <article class="card-article">
         <img src="assets/img/image6.jpg" class="card-img" />
         <div class="card-data">
-          <span class="card-description">Koop | 23 dec 2023</span>
+          <span class="card-description"> Fenna de Wilde | 19 jan 2023</span>
           <h2 class="card-title">workshop 3</h2>
           <a href="#" class="card-button">Read more</a>
         </div>
       </article>
+
+      <!-- 
 
       <article class="card-article">
         <img src="assets/img/image5.jpg" class="card-img" />
@@ -201,9 +202,7 @@
 }
 
 @media screen and (min-width: 1120px) {
-  .container {
-    height: 100vh;
-  }
+
   .card-container {
     grid-template-columns: repeat(3, 1fr);
   }
