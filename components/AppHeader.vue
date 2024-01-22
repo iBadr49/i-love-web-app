@@ -2,12 +2,13 @@
 <template>
   <header class="header">
     <div class="header-left">
-      <p>
+      <a href="/"><p>
         i
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="18"
           width="18"
+          fill="red"
           viewBox="0 0 512 512"
         >
           <path
@@ -15,14 +16,12 @@
           />
         </svg>
         Web
-      </p>
+      </p></a>
     </div>
     <nav class="header-right">
       <ul>
-        <!-- <li><a href="#">About me</a></li>
-        <li><a href="#">Contact</a></li> -->
         <li aria-label="after">
-          <a href="/about">About</a>
+          <a href="/aboutt">About</a>
         </li>
         <li aria-label="after">
           <a href="/contact">Contact</a>
@@ -39,6 +38,11 @@
   align-items: center;
   padding: 2rem;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 .header-left p {
@@ -86,15 +90,6 @@
   scale: 1 1;
   transform-origin: left center;
 }
-
-/* .header-right a {
-  text-decoration: none;
-  color: black;
-}
-.header-right a:hover {
-  color: var(--color-1);
-  transition: color 0.3s ease;
-} */
 
 @media only screen and (max-width: 600px) {
   .header {

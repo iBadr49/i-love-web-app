@@ -1,10 +1,11 @@
+<!-- components/Accessibility workshop.vue -->
 <template>
   <link
     href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
     rel="stylesheet"
   />
 
-  <div class="workshop-container">
+  <div class="container">
     <div class="left-panel">
       <h1>Accessibility</h1>
       <span class="workshop-auteur">By Ischa Gast</span>
@@ -22,14 +23,14 @@
     </div>
 
     <div class="right-panel">
-      <img src="assets/img/accessibility.png" alt="Workshop Afbeelding" />
+      <img src="assets/img/accessibility.png" alt="Workshop Afbeelding" id="img" />
       <span class="workshop-date">20 oct 2023</span>
     </div>
   </div>
 </template>
 
 <style scoped>
-.workshop-container {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -77,7 +78,7 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-  .workshop-container {
+  .container {
     grid-template-columns: repeat(1, 2fr);
   }
 

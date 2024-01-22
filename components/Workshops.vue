@@ -5,9 +5,9 @@
       <article class="card-article">
         <img src="assets/img/image9.jpg" class="card-img" />
         <div class="card-data">
-          <span class="card-description"> Tim Borst | 6 oct 2023</span>
+          <span class="card-description"> Tim Borst | 06 oct 2023</span>
           <h2 class="card-title">Freelancen</h2>
-          <a href="/freelancen" class="card-button">Read more</a>
+          <a href="/workshop1" class="card-button">Read more</a>
         </div>
       </article>
 
@@ -16,47 +16,18 @@
         <div class="card-data">
           <span class="card-description"> Ischa Gast | 20 oct 2023</span>
           <h2 class="card-title">Accessibility</h2>
-          <a href="/accessibility" class="card-button">Read more</a>
+          <a href="/workshop2" class="card-button">Read more</a>
         </div>
       </article>
       
       <article class="card-article">
         <img src="assets/img/image6.jpg" class="card-img" />
         <div class="card-data">
-          <span class="card-description"> Fenna de Wilde | 19 jan 2023</span>
-          <h2 class="card-title">workshop 3</h2>
-          <a href="#" class="card-button">Read more</a>
+          <span class="card-description"> Fenna de Wilde | 19 jan 2024</span>
+          <h2 class="card-title">Frontend | Creative & Accessible</h2>
+          <a href="/workshop3" class="card-button">Read more</a>
         </div>
-      </article>
-
-      <!-- 
-
-      <article class="card-article">
-        <img src="assets/img/image5.jpg" class="card-img" />
-        <div class="card-data">
-          <span class="card-description">Koop | 23 dec 2023</span>
-          <h2 class="card-title">workshop 5</h2>
-          <a href="#" class="card-button">Read more</a>
-        </div>
-      </article>
-
-      <article class="card-article">
-        <img src="assets/img/image3.jpg" class="card-img" />
-        <div class="card-data">
-          <span class="card-description">Koop | 23 dec 2023</span>
-          <h2 class="card-title">workshop 6</h2>
-          <a href="#" class="card-button">Read more</a>
-        </div>
-      </article>
-
-      <article class="card-article">
-        <img src="assets/img/image10.jpg" class="card-img" />
-        <div class="card-data">
-          <span class="card-description"> Joost | 24 oct 2023</span>
-          <h2 class="card-title">workshop 7</h2>
-          <a href="#" class="card-button">Read more</a>
-        </div>
-      </article> -->
+      </article>    
     </div>
   </div>
 </template>

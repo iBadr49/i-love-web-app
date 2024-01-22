@@ -4,9 +4,6 @@
     rel="stylesheet"
   />
 
-  <AppHeader />
-  <Backtohome />
-
   <div class="container">
     <div class="left-panel">
       <h1>Onze achtergrond</h1>
@@ -23,7 +20,6 @@
       <img src="assets/img/about1.jpeg" class="student-img" id="img" />
     </div>
   </div>
-  <AppFooter />
 </template>
 
 <style scoped>
@@ -35,16 +31,11 @@
   padding: 2rem;
 }
 
-.left-panel {
-  display: flex;
-  flex-direction: column;
-}
-
+.left-panel,
 .right-panel {
   display: flex;
   flex-direction: column;
 }
-
 
 img {
   border-radius: 20px;
@@ -53,6 +44,7 @@ img {
 
 h1 {
   margin-bottom: 30px;
+  /* font-size: 40px; */
 }
 
 p {

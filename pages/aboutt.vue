@@ -1,5 +1,5 @@
 <template>
   <AppHeader />
   <Backtohome />
-  <Formulier />
+  <Onsachtergrond />
 </template>
