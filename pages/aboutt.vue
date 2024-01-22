@@ -2,4 +2,5 @@
   <AppHeader />
   <Backtohome />
   <Onsachtergrond />
+  <AppFooter />
 </template>
