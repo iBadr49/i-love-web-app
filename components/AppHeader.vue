@@ -21,7 +21,7 @@
     <nav class="header-right">
       <ul>
         <li aria-label="after">
-          <a href="/aboutt">About</a>
+          <a href="/about">About</a>
         </li>
         <li aria-label="after">
           <a href="/contact">Contact</a>
