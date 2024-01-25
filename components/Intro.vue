@@ -12,12 +12,8 @@
 h1 {
   line-height: 1.6;
   letter-spacing: 4px;
-  /* font-weight: 400; */
   font-size: 40px;
   padding: 2rem;
-  /* padding: 20px 20px 20px 100px; */
-  /* text-align: center; */
-  /* max-width: 700px; */
 }
 
 @media only screen and (max-width: 600px) {

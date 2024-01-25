@@ -1,6 +1,6 @@
 <template>
   <AppHeader />
   <Backtohome />
-  <Accessibility />
+  <sessie2 />
   <AppFooter />
 </template>

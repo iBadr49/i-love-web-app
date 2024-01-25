@@ -1,11 +1,7 @@
+<!-- components/AppFooter.vue -->
 <template>
-  <footer class="blog-footer">
+  <footer>
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-links">
-          <!-- <router-link to="#">Socials</router-link>  -->
-        </div>
-      </div>
       <div class="footer-social">
         <a href="#" target="_blank" rel="noopener noreferrer">
           <i class="bx bxl-twitter"></i>
@@ -22,29 +18,11 @@
 </template>
 
 <style scoped>
-.blog-footer {
+.container {
   justify-content: space-between;
   padding: 2rem;
   margin-top: 40px;
-}
-
-.container {
   margin: 0 auto;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* .footer-links {
-  display: flex;
-  gap: 20px;
-} */
-
-.footer-links a {
-  text-decoration: none;
-  color: black;
 }
 
 .footer-social {

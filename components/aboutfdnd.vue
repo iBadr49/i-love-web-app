@@ -44,12 +44,10 @@ img {
 
 h1 {
   margin-bottom: 30px;
-  /* font-size: 40px; */
 }
 
 p {
   font-size: 20px;
-  /* color: var(--color-1); */
   line-height: 1.6;
   max-width: 45vw;
 }

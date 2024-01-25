@@ -4,7 +4,7 @@
       rel="stylesheet"
     />
     <AppHeader />
-    <Introduction />
+    <Intro />
     <Workshops />
     <AppFooter />
   </template>

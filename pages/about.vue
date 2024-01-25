@@ -1,6 +1,6 @@
 <template>
   <AppHeader />
   <Backtohome />
-  <Onsachtergrond />
+  <Aboutfdnd />
   <AppFooter />
 </template>

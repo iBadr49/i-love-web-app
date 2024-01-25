@@ -1,6 +1,6 @@
 <template>
   <AppHeader />
   <Backtohome />
-  <Freelancen />
+  <sessie1 />
   <AppFooter />
 </template>

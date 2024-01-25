@@ -63,8 +63,6 @@
 .card-img {
   width: 330px;
   border-radius: 1.5rem;
-  /* border: 1px solid var(--color-1); */
-  /* box-shadow: 0 1px var(--color-1); */
 }
 
 .card-data {
