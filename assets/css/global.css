@@ -6,12 +6,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+	--color-1: #e94b3c; 
+	--color-2: #abcfc5;
+    --color-3: #5AA9E6; 
+}
 
 body {
     background-color: var(--color-2);
 }
 
-
+/* Animatie */
 
 .container {
     animation: grow 1s;
@@ -20,13 +25,4 @@ body {
 @keyframes grow {
     0% { transform: scale(.2); }
   100% { transform: scale(1); }
-}
-
-
-
-:root {
-	--color-1: #e94b3c; 
-	--color-2: #abcfc5;
-    --color-3: #5AA9E6; 
-
 }
