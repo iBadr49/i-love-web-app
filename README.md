@@ -7,7 +7,7 @@
 
 # Beschrijving 
 
-
+Dit is een Webapp voor het bijhouden van de We ♥ Web presentaties, congressen, meet-ups en nieuwe dingen die ik geleerd heb kan bijhouden.
 
 # Nuxt 3 Minimal Starter
 
