@@ -63,6 +63,8 @@
 .card-img {
   width: 330px;
   border-radius: 1.5rem;
+  cursor: pointer;
+
 }
 
 .card-data {
